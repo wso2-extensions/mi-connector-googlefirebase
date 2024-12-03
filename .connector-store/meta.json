@@ -8,7 +8,7 @@
     "mavenArtifactId": "org.wso2.carbon.connector.googlefirebase",
     "description": "The Google Firebase connector allows you to integrate your own back-end services with Firebase Cloud Messaging (FCM). It handles authenticating with Firebase servers while facilitating sending messages and managing topic subscriptions.",
     "status": "Active",
-    "connectorRank": 99,
+    "rank": 99,
     "type": "Connector",
     "labels": [
         "google",
@@ -45,7 +45,12 @@
                     "isHidden": false
                 }
             ],
-            "connections": [],
+            "connections": [
+                {
+                    "name": "googlefirebase",
+                    "description": "Connection for interacting with Google Firebase."
+                }
+            ],
             "isHidden": false
         }
     ]
