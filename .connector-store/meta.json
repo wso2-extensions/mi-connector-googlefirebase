@@ -1,10 +1,15 @@
 {
     "name": "Google Firebase",
     "owner": "WSO2",
+    "product": "MI",
     "category": "Developer Tools",
     "documentationUrl": "https://mi.docs.wso2.com/en/latest/reference/connectors/google-firebase-connector/google-firebase-overview/",
+    "mavenGroupId": "org.wso2.integration.connector",
+    "mavenArtifactId": "mi-connector-googlefirebase",
     "description": "The Google Firebase connector allows you to integrate your own back-end services with Firebase Cloud Messaging (FCM). It handles authenticating with Firebase servers while facilitating sending messages and managing topic subscriptions.",
     "status": "Active",
+    "rank": 99,
+    "type": "Connector",
     "labels": [
         "google",
         "database"
@@ -17,6 +22,34 @@
                 "MI 4.2.0",
                 "MI 4.1.0",
                 "MI 4.0.0"
+            ],
+            "operations": [
+                {
+                    "name": "init",
+                    "description": "Get the basic details of Firebase API",
+                    "isHidden": false
+                },
+                {
+                    "name": "sendMessage",
+                    "description": "Send firebase message",
+                    "isHidden": false
+                },
+                {
+                    "name": "subscribeToTopic",
+                    "description": "Subscribe a device to a topic",
+                    "isHidden": false
+                },
+                {
+                    "name": "unsubscribeFromTopic",
+                    "description": "UnSubscribe devices from a topic",
+                    "isHidden": false
+                }
+            ],
+            "connections": [
+                {
+                    "name": "googlefirebase",
+                    "description": "Connection for interacting with Google Firebase."
+                }
             ],
             "isHidden": false
         }
