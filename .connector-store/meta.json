@@ -16,6 +16,44 @@
     ],
     "releases": [
         {
+            "tagName": "v1.0.3",
+            "products": [
+                "MI 4.3.0",
+                "MI 4.2.0",
+                "MI 4.1.0",
+                "MI 4.0.0"
+            ],
+            "operations": [
+                {
+                    "name": "init",
+                    "description": "Get the basic details of Firebase API",
+                    "isHidden": false
+                },
+                {
+                    "name": "sendMessage",
+                    "description": "Send firebase message",
+                    "isHidden": false
+                },
+                {
+                    "name": "subscribeToTopic",
+                    "description": "Subscribe a device to a topic",
+                    "isHidden": false
+                },
+                {
+                    "name": "unsubscribeFromTopic",
+                    "description": "UnSubscribe devices from a topic",
+                    "isHidden": false
+                }
+            ],
+            "connections": [
+                {
+                    "name": "googlefirebase",
+                    "description": "Connection for interacting with Google Firebase."
+                }
+            ],
+            "isHidden": false
+        },
+        {
             "tagName": "v1.0.2",
             "products": [
                 "MI 4.3.0",
