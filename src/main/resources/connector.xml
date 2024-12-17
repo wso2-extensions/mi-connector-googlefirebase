@@ -24,4 +24,5 @@
         <dependency component="subscription"/>
         <description>WSO2 Connector library for Google Firebase API</description>
     </component>
+    <displayName>Google Firebase</displayName>
 </connector>
