@@ -21,7 +21,7 @@
     <groupId>org.wso2.integration.connector</groupId>
     <artifactId>mi-connector-googlefirebase</artifactId>
     <packaging>jar</packaging>
-    <version>1.0.3</version>
+    <version>1.0.4-SNAPSHOT</version>
     <name>WSO2 Carbon - Mediation Library Connector For Google Firebase</name>
     <url>http://wso2.org</url>
     <properties>
@@ -202,7 +202,7 @@
         <developerConnection>
             scm:git:https://github.com/wso2-extensions/esb-connector-googlefirebase
         </developerConnection>
-        <tag>v1.0.3</tag>
+        <tag>HEAD</tag>
     </scm>
     <build>
         <plugins>
