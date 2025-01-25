@@ -45,12 +45,7 @@
                     "isHidden": false
                 }
             ],
-            "connections": [
-                {
-                    "name": "googlefirebase",
-                    "description": "Connection for interacting with Google Firebase."
-                }
-            ],
+            "connections": [],
             "isHidden": false
         },
         {
@@ -83,12 +78,7 @@
                     "isHidden": false
                 }
             ],
-            "connections": [
-                {
-                    "name": "googlefirebase",
-                    "description": "Connection for interacting with Google Firebase."
-                }
-            ],
+            "connections": [],
             "isHidden": false
         }
     ]
